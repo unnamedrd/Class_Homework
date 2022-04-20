@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500;600&family=Sen:wght@400;700;800&display=swap');
+
+
+*, 
+*::before, 
+*::after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+:root{
+--clr-light: #FAF9F5;
+--clr-dark: #0D0D0D;
+--clr-accent1: #BF045B; 
+--clr-accent2: #D9C14A; 
+--clr-accent3: #1C8C78;
+--clr-accent4: #F28E13; 
+--clr-accent5: #F26B1D; 
+--clr-accent6: #F23030; 
+
+
+}
+
+.hero{
+    width:100vw;
+    height:100vh;
+    background-color: var(--clr-dark);
+}
